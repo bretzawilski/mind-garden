@@ -1,5 +1,5 @@
 ---
 layout: default
 ---
-# Hi
-I'm John Lemmon. I'm an umpteen year-old developer and musician from Liverpool, England.
+# Welcome to the Serendipity Machine
+I'm Dr. Zed, and I'm experimenting with this fun site builder. 
