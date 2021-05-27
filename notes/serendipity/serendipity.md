@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: note
 ---
 
 # What is Serendipity?
