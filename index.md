@@ -15,7 +15,7 @@ Why doesn't this seem to like me?
 
 - Okay bullets
 
-```js
+``` javascript
 function testFunction() {
   console.log("Hello!");
 }
