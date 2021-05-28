@@ -63,7 +63,6 @@ img[width][height] {
   .header {
     position: fixed;
     width: 100%;
-    overflow: auto;
     top: 0;
   }
 
@@ -227,7 +226,6 @@ small {
   box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.25);
   width: 348px;
   max-height: 148px;
-  overflow: auto;
 }
 
 .backlink__preview::after {
@@ -279,7 +277,6 @@ small {
     height: 50px;
     width: 100%;
     background: var(--byzantine);
-    overflow: auto;
     transition: all 0.5s ease-out, background 1s ease-out;
     transition-delay: 0.2s;
     z-index: 1;
@@ -425,7 +422,6 @@ small {
     font-family: Roboto;
     padding: 67px 4% 0;
     text-align: justify;
-    overflow: auto;
     max-height: 100%;
   }
   .window .content::-webkit-scrollbar {
