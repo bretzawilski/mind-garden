@@ -7,11 +7,11 @@
     <header class="window">
       {% include nav2.html %}
       <main>{{ content | safe }}</main>
+      <hr />
+      <footer class="page-footer">
+        <small>© {{site.year}} {{site.author}}</small>
+      </footer>
+      <script src="/assets/script.js"></script>
     </header>
-    <hr />
-    <footer class="page-footer">
-      <small>© {{site.year}} {{site.author}}</small>
-    </footer>
-    <script src="/assets/script.js"></script>
   </body>
 </html>
