@@ -306,7 +306,7 @@ $menuItems: 5;
     // height: 567px;
     // margin: 100px auto 0;
     box-shadow: 0 0 65px 15px rgba(#000, 0.2);
-    overflow: scroll;
+    overflow: hidden;
     border-radius: 3px;
     // background: #f1f1f1;
     .header {
@@ -512,7 +512,7 @@ pre[class*="language-"] {
 pre[class*="language-"] {
   padding: 1em;
   margin: 0.5em 0;
-  overflow: auto;
+  // overflow: auto;
   border-radius: 0.3em;
 }
 
