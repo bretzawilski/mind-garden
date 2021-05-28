@@ -4,12 +4,18 @@
     {% include head.html %}
   </head>
   <body>
-    <header class="window">
+    <div class="window">
       {% include nav2.html %}
-      <main>{{ content | safe }}</main>
-    </header>
+      <main>
+        <article>
+          <h1>{{ title }}</h1>
+          <time datetime="{{ date | dateIso }}">{{ date | dateReadable }}</time>
+          {{ content | safe }}
+        </article>
+      </main>
+    </div>
     <footer class="page-footer">
-      <small>Copyright {{site.author}}</small>
+      <small>© {{site.year}} {{site.author}}</small>
     </footer>
     <script src="/assets/script.js"></script>
   </body>

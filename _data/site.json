@@ -1,6 +1,7 @@
 {
-    "title": "Web Development and Rhetoric",
-    "desc": "Learning to code, and understanding why code matters.",
-    "author": "Bret Zawilski",
-    "baseurl": "https://mind-garden.vercel.app/"
+  "title": "Web Development and Rhetoric",
+  "desc": "Learning to code, and understanding why code matters.",
+  "author": "Bret Zawilski",
+  "year": "2021",
+  "baseurl": "https://mind-garden.vercel.app/"
 }
