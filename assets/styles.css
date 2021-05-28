@@ -60,7 +60,7 @@ img[width][height] {
 }
 
 strong {
-  background: -webkit-linear-gradient(45deg, var(--strong-gradient), var(--strong-gradient-2));
+  background: -webkit-linear-gradient(-90deg, var(--dodger-blue) 43%, var(--major-accent));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -75,7 +75,7 @@ strong {
 
   .menu {
     display: flex;
-    background: linear-gradient(to right, var(--trypan-blue-2), var(--trypan-blue));
+    background: linear-gradient(to right, var(--dodger-blue), var(--trypan-blue-2));
     border-top: 3px solid var(--major-accent);
     justify-content: flex-end;
     padding-right: 10%;
@@ -370,6 +370,9 @@ small {
   .window .header ul.menu li.menu-item:nth-child(4) {
     transition-delay: 0.28s;
   }
+  .window .header ul.menu li.menu-item:nth-child(5) {
+    transition-delay: 0.21s;
+  }
   .window .header ul.menu li.menu-item a {
     display: block;
     position: relative;
@@ -416,6 +419,9 @@ small {
   }
   .window .header.menu-opened ul.menu li.menu-item:nth-child(4) {
     transition-delay: 0.48s;
+  }
+  .window .header.menu-opened ul.menu li.menu-item:nth-child(5) {
+    transition-delay: 0.55s;
   }
   .window .header.menu-opened .icon.icon-bag {
     transform: translateX(75px);
@@ -595,6 +601,21 @@ pre[class*=language-] {
 
 .token.italic {
   font-style: italic;
+}
+
+.pagenav > a {
+  color: white;
+}
+
+main > article {
+  border: 1px dashed var(--vivid-sky-blue);
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+}
+
+.page-title {
+  font-size: 1.5rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
