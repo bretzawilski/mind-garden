@@ -4,14 +4,14 @@
     {% include head.html %}
   </head>
   <body>
-    <header class="window">
+    <div class="window">
       {% include nav2.html %}
       <main>{{ content | safe }}</main>
-    </header>
-    <hr />
-    <footer class="page-footer">
-      <small>© {{site.year}} {{site.author}}</small>
-    </footer>
-    <script src="/assets/script.js"></script>
+      <hr />
+      <footer class="page-footer">
+        <small>© {{site.year}} {{site.author}}</small>
+      </footer>
+      <script src="/assets/script.js"></script>
+    </div>
   </body>
 </html>
