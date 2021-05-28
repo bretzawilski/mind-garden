@@ -38,10 +38,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addLiquidShortcode("image", imageShortcode);
   eleventyConfig.addJavaScriptFunction("image", imageShortcode);
 
-  eleventyConfig.addShortcode("first_image", (post) => extractFirstImage(post));
+  // eleventyConfig.addShortcode("first_image", (post) => extractFirstImage(post));
 
   // eleventyConfig.addPassthroughCopy("img");
-  eleventyConfig.addPassthroughCopy("blog/*/*/*/*/*.jpeg");
+  eleventyConfig.addPassthroughCopy("blog/*/*/*/*/*");
   // AKA /blog/year/month/day/postname/*.jpeg
 
   eleventyConfig.addShortcode("excerpt", (article) => extractExcerpt(article));
@@ -135,37 +135,22 @@ function extractExcerpt(article) {
   return excerpt;
 }
 
-function extractFirstImage(doc) {
-  if (!doc.hasOwnProperty("templateContent")) {
-    console.warn(
-      "❌ Failed to extract image: Document has no property `templateContent`."
-    );
-    return;
-  }
+// function extractFirstImage(doc) {
+//   if (!doc.hasOwnProperty("templateContent")) {
+//     console.warn(
+//       "❌ Failed to extract image: Document has no property `templateContent`."
+//     );
+//     return;
+//   }
 
-  const content = doc.templateContent;
+//   const content = doc.templateContent;
 
-  if (content.includes("<img")) {
-    const imgTagBegin = content.indexOf("<img");
-    const imgTagEnd = content.indexOf(">", imgTagBegin);
+//   if (content.includes("<img")) {
+//     const imgTagBegin = content.indexOf("<img");
+//     const imgTagEnd = content.indexOf(">", imgTagBegin);
 
-    return content.substring(imgTagBegin, imgTagEnd + 1);
-  }
+//     return content.substring(imgTagBegin, imgTagEnd + 1);
+//   }
 
-  return "";
-}
-// const Image = require("@11ty/eleventy-img");
-
-// async function imageShortcode(src, alt, sizes) {
-//   let metadata = await Image(src,)
+//   return "";
 // }
-
-// (async () => {
-//   let url = "https://images.unsplash.com/photo-1608178398319-48f814d0750c";
-//   let stats = await Image(url, {
-//     widths: [300, 600, 1000, 1400],
-//     formats: ["jpg", "webp", "gif"],
-//   });
-
-//   console.log(stats);
-// })()
