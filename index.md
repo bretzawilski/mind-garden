@@ -2,9 +2,9 @@
 layout: default
 ---
 
-# Welcome to the Serendipity Machine
+# Welcome to the **Serendipity Machine**
 
-Welcome to some placeholder text. Let's try to get this going well enough to make it look better than it does right now. Because right now, it's not looking all that great.
+Welcome to some **`placeholder text`**. Let's try to get this going well enough to make it look better than it does right now. Because right now, it's not looking all that great.
 
 ---
 

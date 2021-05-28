@@ -1,7 +1,8 @@
 :root {
   --accent: #2d9cdb;
   --grey: #b5b5b5;
-  --major-accent: #f72585ff;
+  --major-accent: #f72585;
+  --major-accent-2: #fc8181;
   --byzantine: #b5179eff;
   --purple: #7209b7ff;
   --purple-2: #560badff;
@@ -11,6 +12,8 @@
   --ultramarine-blue: #4361eeff;
   --dodger-blue: #4895efff;
   --vivid-sky-blue: #4cc9f0ff;
+  --strong-gradient: #0061ff;
+  --strong-gradient-2: #60efff;
 }
 
 * {
@@ -51,6 +54,22 @@ img[width][height] {
   height: auto; /* Preserve aspect ratio */
 }
 
+#disqus_thread {
+  width: 50%;
+  margin: auto;
+}
+
+strong {
+  // font-size: 72px;
+  background: -webkit-linear-gradient(
+    45deg,
+    var(--strong-gradient),
+    var(--strong-gradient-2)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 @media (min-width: 601px) {
   .header {
     position: fixed;
@@ -67,7 +86,7 @@ img[width][height] {
       var(--trypan-blue)
     );
     border-top: 3px solid var(--major-accent);
-    border-bottom: 3px solid var(--major-accent);
+    // border-bottom: 3px solid var(--major-accent);
     // flex-wrap: wrap;
     justify-content: flex-end;
     padding-right: 10%;
@@ -94,6 +113,16 @@ img[width][height] {
     margin: 0 12px;
     font-size: 1.25em;
   }
+
+  #page-title {
+    position: fixed;
+    justify-content: flex-start;
+    margin-right: 65%;
+    align-self: center;
+    padding-top: 0 !important;
+    margin-top: -1.95rem;
+    color: var(--major-accent-2);
+  }
 }
 main {
   flex-grow: 1;
@@ -115,8 +144,15 @@ h4,
 h5,
 article,
 p {
-  padding: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
+
+// main > article > p > picture > img {
+//   max-width: 90ch;
+//   margin-left: auto;
+//   margin-right: auto;
+// }
 
 hr {
   margin-left: 2em;
@@ -134,6 +170,7 @@ hr {
 .page-footer {
   text-align: center;
   margin-bottom: 8px;
+  // border-top: 3px solid var(--major-accent);
 }
 
 a[href] {
