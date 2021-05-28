@@ -30,6 +30,8 @@
   },
   "main": ".eleventy.js",
   "dependencies": {
+    "@11ty/eleventy-cache-assets": "^2.2.1",
+    "@11ty/eleventy-img": "^0.9.0",
     "sass": "^1.34.0"
   }
 }

@@ -41,6 +41,16 @@ li {
 //   }
 // }
 
+img {
+  max-width: 100%;
+}
+img[width] {
+  width: auto; /* Defer to max-width */
+}
+img[width][height] {
+  height: auto; /* Preserve aspect ratio */
+}
+
 @media (min-width: 601px) {
   .header {
     position: fixed;
