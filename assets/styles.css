@@ -59,12 +59,6 @@ img[width][height] {
   margin: auto;
 }
 
-strong {
-  background: -webkit-linear-gradient(-90deg, var(--dodger-blue) 43%, var(--major-accent));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 @media (min-width: 601px) {
   .header {
     position: fixed;
