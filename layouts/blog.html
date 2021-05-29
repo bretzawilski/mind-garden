@@ -9,6 +9,7 @@
       <main>
         <article>
           <h1>{{ title }}</h1>
+          by {{site.author}} —
           <time datetime="{{ date | dateIso }}">{{ date | dateReadable }}</time>
           {{ content | safe }}
         </article>
