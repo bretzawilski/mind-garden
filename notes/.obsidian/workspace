@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Variable Types.md",
+            "file": "index.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Variable Types.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "e2a3c8dfe68f6454",
   "lastOpenFiles": [
+    "index.md",
     "Variable Types.md",
     "Thread of Execution.md",
     "static site generator.md",
@@ -95,7 +96,6 @@
     "Memory in Javascript.md",
     "JS Functions.md",
     "javascript index.md",
-    "index.md",
     "HTML Index.md",
     "Functional Programming.md"
   ]
