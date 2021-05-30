@@ -17,6 +17,7 @@ pagination:
     <a href="{{ post.url | url }}"
     aria-label="Read more on {{ post.data.title }}">Read more</a>
   </article>
+  <hr />
 {% endfor %}
 
 {% if pagination.href.previous or pagination.href.next %}

@@ -1,7 +1,7 @@
 {
-  "name": "eleventy-garden",
-  "version": "1.0.0",
-  "description": "A starter site for building a mind garden in eleventy.",
+  "name": "zed-dev-blog",
+  "version": "0.1.0",
+  "description": "A blog and PKM mind-garden built with eleventy",
   "scripts": {
     "serve": "eleventy --serve",
     "compile": "eleventy",

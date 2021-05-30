@@ -602,10 +602,9 @@ pre[class*=language-] {
 }
 
 main > article {
-  border: 1px dashed var(--vivid-sky-blue);
-  padding-bottom: 2rem;
-  margin-bottom: 2rem;
-  border-radius: 0.5rem;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding-top: 1rem;
 }
 
 .page-title {

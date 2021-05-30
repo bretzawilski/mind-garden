@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "3988274bd3eb18ac",
+    "type": "split",
+    "children": [
+      {
+        "id": "e2a3c8dfe68f6454",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Variable Types.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "35f1e9bb9362090f",
+    "type": "split",
+    "children": [
+      {
+        "id": "d5db9e711e6f7209",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c1b7a7a46ab48c1a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "b99d5e26a502f7f7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "757b0506ec092cac",
+    "type": "split",
+    "children": [
+      {
+        "id": "ce21783c4e606cec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "81b097bf7c63ec6e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Variable Types.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "e2a3c8dfe68f6454",
+  "lastOpenFiles": [
+    "Variable Types.md",
+    "Thread of Execution.md",
+    "static site generator.md",
+    "Semantic Tags.md",
+    "Memory in Javascript.md",
+    "JS Functions.md",
+    "javascript index.md",
+    "index.md",
+    "HTML Index.md",
+    "Functional Programming.md"
+  ]
+}
