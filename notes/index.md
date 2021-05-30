@@ -11,6 +11,6 @@ I'll be providing some additional details concerning PKM as I develop this secti
 
 ## Welcome to the Garden
 - [[coding index]] 
-- [[JavaScript Index]]
+- [[javascript index]]
 - [[CSS Index]]
 - [[HTML Index]]
