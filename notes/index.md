@@ -1,8 +1,9 @@
 ---
 layout: default
 title: About these notes
+tags: #MOC
 ---
-
+#MOC
 # About these Notes
 
 Welcome to the "mind garden" portion of this site. If you haven't heard of a mind garden in the past, it's essentially a personal wiki that's used to "think in public." The idea stems from conversations around personal knowledge management (PKM) and the concept of atomic notes. If you search for personal knowledge management, you're most likely going to stumble upon several communities devoted to note-taking. This might strike you as weird, but I promise, there's some worthwhile concepts lurking beneath the shiny marketing veneer of many writers.
