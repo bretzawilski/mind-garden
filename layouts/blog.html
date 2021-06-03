@@ -9,8 +9,18 @@
       <main>
         <article>
           <h1>{{ title }}</h1>
-          by {{site.author}} —
-          <time datetime="{{ date | dateIso }}">{{ date | dateReadable }}</time>
+          <img
+            id="blog-avatar"
+            src="/assets/avatar.png"
+            alt="Avatar illustration"
+            width="10px"
+            height="10px"
+          /><small
+            >by {{site.author}} —
+            <time datetime="{{ date | dateIso }}"
+              >{{ date | dateReadable }}</time
+            ></small
+          >
           {{ content | safe }}
         </article>
       </main>
