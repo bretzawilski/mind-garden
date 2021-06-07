@@ -42,13 +42,27 @@
             <div class="bar btmBar"></div>
           </div>
         </div>
-        <div class="icon icon-apple"></div>
-        <ul class="menu">
-          <li class="menu-item"><a href="/">Home</a></li>
-          <li class="menu-item"><a href="/about">About</a></li>
-          <li class="menu-item"><a href="/blog">Blog</a></li>
-          <li class="menu-item"><a href="/notes">Notes</a></li>
-        </ul>
+       <div class="icon icon-apple"></div>
+  <ul class="menu">
+    <div id="left">
+      <div class="circle">
+        <img
+          id="nav-avatar"
+          src="/assets/avatar.png"
+          alt="Avatar illustration"
+          width="10px"
+          height="10px"
+        />
+      </div>
+      Bret Zawilski
+    </div>
+    <div id="right">
+      <li class="menu-item"><a href="/">Home</a></li>
+      <li class="menu-item"><a href="/about">About</a></li>
+      <li class="menu-item"><a href="/blog">Blog</a></li>
+      <li class="menu-item"><a href="/notes">Notes</a></li>
+    </div>
+  </ul> 
         <div class="shop icon icon-bag"></div>
       </div>
       <main>{{ content | safe }}</main>
