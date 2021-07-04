@@ -1,5 +1,5 @@
 ---
-layout: note
+'note.njk'
 title: Eleventy | 11ty
 ---
 # Eleventy - 11ty

@@ -1,5 +1,5 @@
 ---
-layout: note
+'note.njk'
 title: HTML Index
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: 'base.njk' 
 title: About Me
 date: 2021-05-30
 ---

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: 'base.njk' 
 title: About these notes
 tags: #MOC
 ---

@@ -9,7 +9,7 @@ tags: post
 Recently, I started the “Learn to Code Dublin” MeetUp. While several other fantastic groups operate in the area, most of them appear focused on intermediate-level tech talks or expert-led mentorship. Both of those models are fantastic and fill a particular niche, but it meant that some new coders might not find their way into a community. 
 <!-- Excerpt End -->
 
-{% image "./blog/2021/07/04/community.jpg", "A group of people working together on a computer", "100vw", page.url %}
+{% image "./blog/2021/07/04/community.jpg", "A group of people working together on a computer", "100vw", page.url %}`
 
 ## Why MeetUp?
 Many free and premium coding resources pride themselves on active communities on platforms like Discord or Slack. So, why is a local MeetUp necessary? Aside from the obvious benefits of networking in a specific location, the size of some of the most popular communities can be daunting for newcomers. While most are incredibly welcoming, it can be a challenge to feel a sense of belonging in such a large group. Especially at the very beginning of the learning process. 

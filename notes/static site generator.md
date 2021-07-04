@@ -1,5 +1,5 @@
 ---
-layout: note
+'note.njk'
 title: Static Site Generators
 ---
 # Static Site Generators

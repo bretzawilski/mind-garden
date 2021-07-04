@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    {% include head.html %}
+    {% include 'head.njk' %}
   </head>
   <body>
     <div class="window">
-      {% include nav2.html %}
+      {% include 'nav2.njk' %}
       <main>{{ content | safe }}</main>
 
       <footer class="page-footer">
-        <small>© {{site.year}} {{site.author}}</small>
+        <small>© {{ site.year }} {{ site.author }}</small>
       </footer>
       <script src="/assets/script.js"></script>
     </div>

@@ -1,5 +1,5 @@
 ---
-layout: note
+'note.njk'
 title: DOM Manipulation
 ---
 One of the most powerful features of Javascript is the ability to manipulate the DOM of an html document. Essentially, it can modify the DOM in a way that is not represented in the source code, but which can affect what information a browser displays. There are several pertinent commands here to be aware of.

@@ -1,5 +1,5 @@
 ---
-layout: note
+'note.njk'
 title: Memory in Javascript
 ---
 # Memory in JS
